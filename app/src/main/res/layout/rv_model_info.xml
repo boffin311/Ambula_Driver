@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/text_margin_2"
+
+    android:orientation="vertical">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/tvTitle"
+    android:text="@string/app_name"
+    android:padding="@dimen/text_margin_2"
+    android:textAppearance="@style/TextAppearance.AppCompat.Subhead"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:padding="@dimen/text_margin_2"
+        android:id="@+id/tvSubtitleInfo"
+        android:fontFamily="sans-serif-medium"
+        android:text="himanshu31198@gmail.com"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+android:layout_marginLeft="@dimen/text_margin_2"
+        android:layout_marginRight="10dp"
+        android:id="@+id/tvUnderLine"
+        android:background="#16000000"/>
+</LinearLayout>
